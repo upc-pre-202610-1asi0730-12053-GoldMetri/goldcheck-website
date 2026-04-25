@@ -1,0 +1,378 @@
+/* Color variables y typography */
+:root {
+  --color-primary-dark: #2A2A2A; /* Fondo principal oscuro */
+  --color-primary-gold: #C5A059; /* Tono dorado principal (textos, botones) */
+  --color-secondary-gold: #E2CD9A; /* Tono dorado claro (tarjetas, FAQs, footer) */
+  --color-white: #FFFFFF; /* Blanco puro para fondo de navbar y textos */
+  --color-dark-text: #1A1A1A; /* Texto oscuro para secciones claras */
+  --font-main: 'Montserrat', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+/* Reset and source styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-main);
+  background-color: var(--color-primary-dark);
+  color: var(--color-white);
+  line-height: 1.6;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Utilities */
+.text-gold { color: var(--color-primary-gold); }
+.text-center { text-align: center; }
+.section-padding { padding: 4rem 5%; }
+
+/* General buttons */
+.btn {
+  padding: 0.6rem 1.8rem;
+  border-radius: 30px;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+}
+
+.btn-gold {
+  background-color: var(--color-primary-gold);
+  color: var(--color-white);
+}
+
+.btn-light {
+  background-color: var(--color-secondary-gold);
+  color: var(--color-dark-text);
+}
+
+.btn-white {
+  background-color: var(--color-white);
+  color: var(--color-dark-text);
+}
+
+.btn:hover {
+  opacity: 0.9;
+  transform: translateY(-2px);
+}
+
+/* Navegation / Header */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--color-white);
+  padding: 1rem 5%;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.nav-logo img {
+  max-height: 50px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: var(--color-dark-text);
+  font-weight: 500;
+  font-size: 0.9rem;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: var(--color-primary-gold);
+}
+
+.nav-actions {
+  display: flex;
+  gap: 1rem;
+}
+
+/* Hero Section (Frame 8) */
+.hero-section {
+  /* Replace URL */
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url('hero-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 8rem 5%;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-section h1 {
+  font-size: 3.5rem;
+  color: var(--color-primary-gold);
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.hero-section h2 {
+  font-size: 2rem;
+  margin-bottom: 2.5rem;
+  font-weight: 400;
+  max-width: 800px;
+}
+
+/* Mission & Vision  */
+.mission-vision {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+.mv-row {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+
+/* Alternate oder for Vision section */
+.mv-row.reverse {
+  flex-direction: row-reverse;
+}
+
+.mv-image {
+  flex: 1;
+}
+
+.mv-image img {
+  border-radius: 8px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+
+.mv-content {
+  flex: 1;
+}
+
+.mv-content h3 {
+  color: var(--color-primary-gold);
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.mv-content p {
+  font-size: 1.1rem;
+  color: #CCCCCC;
+}
+
+/* How does it work? */
+.section-header {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-bottom: 4rem;
+}
+
+.section-header h2 {
+  color: var(--color-primary-gold);
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.section-header::before,
+.section-header::after {
+  content: "";
+  height: 1px;
+  background-color: var(--color-primary-gold);
+  flex: 1;
+  max-width: 250px;
+}
+
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2.5rem;
+}
+
+.card {
+  background-color: var(--color-secondary-gold);
+  color: var(--color-dark-text);
+  padding: 1.5rem;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+  object-fit: cover;
+}
+
+.card h4 {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+.card p {
+  font-size: 0.95rem;
+}
+
+.contact-section {
+  display: flex;
+  gap: 4rem;
+  align-items: flex-start;
+}
+
+.contact-form {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.form-group label {
+  font-size: 0.9rem;
+  color: #DDDDDD;
+}
+
+.form-control {
+  padding: 0.9rem;
+  border-radius: 8px;
+  border: none;
+  background-color: var(--color-white);
+  font-family: inherit;
+}
+
+textarea.form-control {
+  resize: vertical;
+  min-height: 120px;
+}
+
+.radio-group {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+  margin: 0.5rem 0;
+}
+
+.radio-option {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+  color: #DDDDDD;
+}
+
+.contact-image {
+  flex: 1;
+}
+
+.contact-image img {
+  border-radius: 12px;
+  width: 100%;
+}
+
+.faq-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.faq-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.faq-item {
+  background-color: var(--color-secondary-gold);
+  color: var(--color-dark-text);
+  padding: 1.2rem 2rem;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.faq-item:hover {
+  background-color: #d6bf85;
+}
+
+.faq-icon {
+  font-size: 1.2rem;
+}
+
+/* ==========================================================================
+   Footer (Frame 12)
+   ========================================================================== */
+.footer {
+  background-color: var(--color-secondary-gold);
+  color: var(--color-dark-text);
+  padding: 4rem 5% 2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.footer-logo {
+  max-width: 300px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 2rem;
+}
+
+.social-icons a {
+  color: var(--color-dark-text);
+  font-size: 1.8rem;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: var(--color-primary-dark);
+}
+
+.footer-bottom {
+  font-size: 0.8rem;
+  margin-top: 1rem;
+}
+
+/* Media Queries (Responsive) */
+@media (max-width: 992px) {
+  .mv-row, .mv-row.reverse, .contact-section {
+    flex-direction: column;
+  }
+  
+  .nav-links {
+    display: none; 
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-section h1 { font-size: 2.5rem; }
+  .hero-section h2 { font-size: 1.5rem; }
+  .section-padding { padding: 3rem 5%; }
+}
