@@ -1,10 +1,10 @@
-/* Color variables y typography */
+/* Colors y typography */
 :root {
-  --color-primary-dark: #2A2A2A; /* Fondo principal oscuro */
-  --color-primary-gold: #C5A059; /* Tono dorado principal (textos, botones) */
-  --color-secondary-gold: #E2CD9A; /* Tono dorado claro (tarjetas, FAQs, footer) */
-  --color-white: #FFFFFF; /* Blanco puro para fondo de navbar y textos */
-  --color-dark-text: #1A1A1A; /* Texto oscuro para secciones claras */
+  --color-primary-dark: #2A2A2A; /* Dark main background */
+  --color-primary-gold: #C5A059; /* Main gold tone (texts, buttons) */
+  --color-secondary-gold: #E2CD9A; /* Light gold tone (cards, FAQs, footer) */
+  --color-white: #FFFFFF; /* Pure white for navbar background and text */
+  --color-dark-text: #1A1A1A; /* Dark text for light sections */
   --font-main: 'Montserrat', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
 }
 
@@ -157,6 +157,9 @@ img {
 .mv-image img {
   border-radius: 8px;
   box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+  width: 100%;           
+  max-height: 450px;
+  object-fit: cover;
 }
 
 .mv-content {
@@ -388,7 +391,7 @@ textarea.form-control {
 .mv-image {
   flex: 1;
   display: flex;
-  justify-content: center;  /* ← centra la imagen dentro de su columna */
+  justify-content: center; 
 }
 
 .mv-content {
@@ -516,6 +519,10 @@ textarea.form-control {
 
 .contact-image {
   flex: 1;
+  display: flex;
+  align-items: center;        
+  justify-content: center; 
+  padding-top: 5rem;   
 }
 
 .contact-image img {
