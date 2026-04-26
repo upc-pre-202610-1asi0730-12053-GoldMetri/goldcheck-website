@@ -27,8 +27,8 @@
     },
     "benefits": {
         "title": "Benefits",
-        "benefit1": "Manage your fleet with ease: GUARDIANTS provides a user-friendly interface that allows you to monitor and manage your vehicles effortlessly, saving you time and resources.",
-        "benefit2": "Enhanced Security: GUARDIANTS offers advanced security features to protect your vehicles from theft and unauthorized use.",
+        "benefit1": "Manage your fleet with ease: GOLDCHECK provides a user-friendly interface that allows you to monitor and manage your vehicles effortlessly, saving you time and resources.",
+        "benefit2": "Enhanced Security: GOLDCHECK offers advanced security features to protect your vehicles from theft and unauthorized use.",
         "benefit3": "Real-time Insights: Get instant access to critical vehicle data, enabling informed decision-making and proactive management.",
         "benefit4": "Cost Efficiency: Reduce operational costs through improved fleet management and optimized resource allocation.",
         "benefit5": "Compliance Assurance: Ensure adherence to industry regulations with comprehensive reporting and documentation capabilities.",
@@ -36,16 +36,16 @@
     },
     "telemetrySection":{
         "title": "Where Telemetry and Security Meets",
-        "content": "GUARDIANTS ofrece una plataforma de telemetría avanzada que proporciona monitoreo en tiempo real de la ubicación, velocidad, estado del vehículo y otros datos críticos. Nuestra tecnología de vanguardia permite a los usuarios acceder a información detallada sobre sus vehículos desde cualquier lugar, brindando una visión completa para una gestión eficiente y segura.",
-        "bullet1": "Controller Area Network (CAN) Integration: GUARDIANTS seamlessly integrates with your vehicle's CAN bus, allowing for comprehensive data collection and monitoring of various parameters such as engine performance, fuel levels, and more.",
+        "content": "GOLDCHECK ofrece una plataforma de telemetría avanzada que proporciona monitoreo en tiempo real de la ubicación, velocidad, estado del vehículo y otros datos críticos. Nuestra tecnología de vanguardia permite a los usuarios acceder a información detallada sobre sus vehículos desde cualquier lugar, brindando una visión completa para una gestión eficiente y segura.",
+        "bullet1": "Controller Area Network (CAN) Integration: GOLDCHECK seamlessly integrates with your vehicle's CAN bus, allowing for comprehensive data collection and monitoring of various parameters such as engine performance, fuel levels, and more.",
         "bullet2": "Geographic Information System (GIS) Mapping: Our platform utilizes GIS mapping technology to provide real-time location tracking and geofencing capabilities, ensuring you always know where your vehicles are and can set up virtual boundaries for added security.",
-        "bullet3": "Custom Alerts and Notifications: GUARDIANTS allows you to set up custom alerts and notifications based on specific events or conditions, such as unauthorized movement, speeding, or maintenance reminders, keeping you informed and in control at all times. Give permissions and keep a track of route patterns."
+        "bullet3": "Custom Alerts and Notifications: GOLDCHECK allows you to set up custom alerts and notifications based on specific events or conditions, such as unauthorized movement, speeding, or maintenance reminders, keeping you informed and in control at all times. Give permissions and keep a track of route patterns."
     },
     "howdoesitworkSection":{
         "title": "How does it work?",
         "segment1": {
             "title": "Natural people",
-            "description": "Easily integrate GUARDIANTS with your vehicle in minutes and see your vehicle's data come to life on our user-friendly dashboard, giving you complete control and peace of mind."
+            "description": "Easily integrate GOLDCHECK with your vehicle in minutes and see your vehicle's data come to life on our user-friendly dashboard, giving you complete control and peace of mind."
         },
         "segment2": {
             "title": "Enterprises and Governmental entities",
@@ -53,18 +53,18 @@
         }
     },
     "rights":{
-        "content": "© 2026 GUARDIANTS. All rights reserved."
+        "content": "© 2026 GOLDCHECK. All rights reserved."
     }, 
 
     "faq": {
     "title": "FAQs",
     "q1": {
-        "question": "What is GUARDIANTS and how does it work?",
-        "answer": "GUARDIANTS is an intelligent vehicle monitoring platform that uses IoT sensors and telemetry to provide real-time tracking, security alerts, and fleet management from any device."
+        "question": "What is GOLDCHECK and how does it work?",
+        "answer": "GOLDCHECK is an intelligent vehicle monitoring platform that uses IoT sensors and telemetry to provide real-time tracking, security alerts, and fleet management from any device."
     },
     "q2": {
-        "question": "Is GUARDIANTS compatible with any type of vehicle?",
-        "answer": "Yes, GUARDIANTS is compatible with most vehicles manufactured after 2005 that have a standard OBD-II port, including cars, trucks, motorcycles, and heavy machinery."
+        "question": "Is GOLDCHECK compatible with any type of vehicle?",
+        "answer": "Yes, GOLDCHECK is compatible with most vehicles manufactured after 2005 that have a standard OBD-II port, including cars, trucks, motorcycles, and heavy machinery."
     },
     "q3": {
         "question": "How secure is my data on the platform?",
