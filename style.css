@@ -106,7 +106,7 @@ img {
 /* Hero Section (Frame 8) */
 .hero-section {
   /* Replace URL */
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url('hero-bg.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.65)), url('assets/images/aesthetic-cover-photo.png');
   background-size: cover;
   background-position: center;
   text-align: center;
@@ -375,4 +375,22 @@ textarea.form-control {
   .hero-section h1 { font-size: 2.5rem; }
   .hero-section h2 { font-size: 1.5rem; }
   .section-padding { padding: 3rem 5%; }
+}
+
+
+.mv-row {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem 5%;
+}
+
+.mv-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;  /* ← centra la imagen dentro de su columna */
+}
+
+.mv-content {
+  flex: 1;
 }
