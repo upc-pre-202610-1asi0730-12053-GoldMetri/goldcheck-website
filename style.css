@@ -394,3 +394,54 @@ textarea.form-control {
 .mv-content {
   flex: 1;
 }
+
+/* FAQ Accordion */
+.faq-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.faq-item {
+  background-color: var(--color-secondary-gold);
+  color: var(--color-dark-text);
+  padding: 1.2rem 2rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  transition: background-color 0.3s ease;
+}
+
+.faq-item:hover {
+  background-color: #d6bf85;
+}
+
+.faq-icon {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1;
+  transition: transform 0.3s ease;
+}
+
+.faq-answer {
+  display: none;
+  width: 100%;
+  padding-top: 1rem;
+  font-weight: 400;
+  font-size: 0.95rem;
+  color: var(--color-dark-text);
+  border-top: 1px solid rgba(0,0,0,0.15);
+  margin-top: 0.8rem;
+  line-height: 1.7;
+}
+
+.faq-item.open .faq-answer {
+  display: block;
+}
