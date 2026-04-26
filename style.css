@@ -445,3 +445,82 @@ textarea.form-control {
 .faq-item.open .faq-answer {
   display: block;
 }
+
+
+/* Contact form - dark theme */
+.contact-section {
+  display: flex;
+  gap: 4rem;
+  align-items: flex-start;
+}
+
+.contact-form {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.form-group label {
+  font-size: 0.9rem;
+  color: var(--color-primary-gold);
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+  display: block;
+}
+
+.form-control {
+  width: 100%;
+  padding: 0.8rem 1rem;
+  border-radius: 8px;
+  border: 1px solid rgba(197, 160, 89, 0.2);
+  background-color: var(--color-white);
+  color: var(--color-dark-text);
+  font-family: inherit;
+  font-size: 0.95rem;
+  transition: border 0.3s ease;
+}
+
+.form-control:focus {
+  outline: none;
+  border-color: var(--color-primary-gold);
+}
+
+textarea.form-control {
+  resize: vertical;
+  min-height: 110px;
+}
+
+.radio-group {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  margin-top: 0.3rem;
+}
+
+.radio-option {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+  color: var(--color-primary-gold);
+  cursor: pointer;
+}
+
+.radio-option input[type="radio"] {
+  accent-color: var(--color-primary-gold);
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+
+.contact-image {
+  flex: 1;
+}
+
+.contact-image img {
+  border-radius: 20px;
+  width: 100%;
+  object-fit: cover;
+  max-height: 420px;
+}

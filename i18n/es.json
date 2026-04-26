@@ -77,5 +77,19 @@
         "question": "What happens if my vehicle goes to an area without signal?",
         "answer": "The device stores data locally and syncs automatically once connectivity is restored, ensuring no tracking gaps in your vehicle's history."
     }
-}
+    
+
+    },
+    "contact": {
+    "title": "Contact",
+    "name": "Full name",
+    "phone": "Phone",
+    "email": "Email",
+    "userType": "User type",
+    "type1": "Final consumer",
+    "type2": "Jewelry Store",
+    "type3": "Mining Company",
+    "message": "Message",
+    "send": "Send Message"
+    }   
 }

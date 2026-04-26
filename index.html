@@ -123,6 +123,54 @@
         </div>
     </section>
 
+     <!-- Contact Section -->
+    <section class="section-padding" id="contact">
+        <div class="section-header">
+            <h2 data-i18n="contact.title">Contact</h2>
+        </div>
+        <div class="contact-section">
+            <div class="contact-form">
+                <div class="form-group">
+                    <label for="contact-name" data-i18n="contact.name">Full name</label>
+                    <input type="text" id="contact-name" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="contact-phone" data-i18n="contact.phone">Phone</label>
+                    <input type="tel" id="contact-phone" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="contact-email" data-i18n="contact.email">Email</label>
+                    <input type="email" id="contact-email" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label data-i18n="contact.userType">User type</label>
+                    <div class="radio-group">
+                        <label class="radio-option">
+                            <input type="radio" name="user-type" value="final-consumer">
+                            <span data-i18n="contact.type1">Final consumer</span>
+                        </label>
+                        <label class="radio-option">
+                            <input type="radio" name="user-type" value="jewelry-store">
+                            <span data-i18n="contact.type2">Jewelry Store</span>
+                        </label>
+                        <label class="radio-option">
+                            <input type="radio" name="user-type" value="mining-company">
+                            <span data-i18n="contact.type3">Mining Company</span>
+                        </label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="contact-message" data-i18n="contact.message">Message</label>
+                    <textarea id="contact-message" class="form-control" rows="4"></textarea>
+                </div>
+                <button class="btn btn-gold" data-i18n="contact.send">Send Message</button>
+            </div>
+            <div class="contact-image">
+                <img src="assets/images/aesthetic-cover-photo.png" alt="Contact image">
+            </div>
+        </div>
+    </section>
+    
     <!-- FAQ Section -->
     <section class="section-padding faq-container" id="faq">
         <div class="section-header">
