@@ -54,5 +54,43 @@
     },
     "rights":{
         "content": "© 2026 GUARDIANTS. All rights reserved."
+    }, 
+
+    "faq": {
+    "title": "FAQs",
+    "q1": {
+        "question": "What is GUARDIANTS and how does it work?",
+        "answer": "GUARDIANTS is an intelligent vehicle monitoring platform that uses IoT sensors and telemetry to provide real-time tracking, security alerts, and fleet management from any device."
+    },
+    "q2": {
+        "question": "Is GUARDIANTS compatible with any type of vehicle?",
+        "answer": "Yes, GUARDIANTS is compatible with most vehicles manufactured after 2005 that have a standard OBD-II port, including cars, trucks, motorcycles, and heavy machinery."
+    },
+    "q3": {
+        "question": "How secure is my data on the platform?",
+        "answer": "We use end-to-end encryption and comply with international data protection regulations. Your data is stored in certified secure servers and is never shared with third parties without your consent."
+    },
+    "q4": {
+        "question": "Can I manage multiple vehicles at the same time?",
+        "answer": "Absolutely. Our enterprise plan allows you to manage unlimited vehicles from a single dashboard, with role-based access control for your team members."
+    },
+    "q5": {
+        "question": "What happens if my vehicle goes to an area without signal?",
+        "answer": "The device stores data locally and syncs automatically once connectivity is restored, ensuring no tracking gaps in your vehicle's history."
+    }
+    
+    },
+    
+    "contact": {
+    "title": "Contact",
+    "name": "Full name",
+    "phone": "Phone",
+    "email": "Email",
+    "userType": "User type",
+    "type1": "Final consumer",
+    "type2": "Jewelry Store",
+    "type3": "Mining Company",
+    "message": "Message",
+    "send": "Send Message"
     }
 }
