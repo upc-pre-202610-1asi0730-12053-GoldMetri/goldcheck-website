@@ -1,5 +1,7 @@
 {
     "headers": {
+        "title": "GOLDMETRICS - La solución definitiva para el seguimiento de minerales",
+        "description": "GOLDMETRICS es un sistema de seguimiento de minerales de última generación diseñado para ofrecer supervisión de la ubicación en tiempo real, funciones de logística avanzadas y una integración perfecta, tanto para uso personal como comercial.",
         "title": "GOLDMETRICS - La solución definitiva para el seguimiento de vehículos",
         "description": "GOLDMETRICS es un sistema de seguimiento de vehículos de última generación diseñado para ofrecer supervisión de la ubicación en tiempo real, funciones de seguridad avanzadas y una integración perfecta, tanto para uso personal como comercial.",
         "home": "Inicio",
@@ -14,11 +16,23 @@
     },
     "heroSection": {
         "tagline": "PREVENIR | PROTEGER | OPTIMIZAR",
+        "slogan": "La nueva era de la seguridad y la gestión de minerales inteligentes con GoldCheck.",
         "slogan": "La nueva era de la seguridad y la gestión de vehículos inteligentes con GoldCheck.",
         "cta": "Empieza ya"
     },
     "mission": {
         "title": "Misión",
+        "content": "Nuestra misión es desarrollar tecnologías de vanguardia que permitan rastrear, examinar y validar el trayecto de los minerales, asegurando la autenticidad de los productos y promoviendo activamente la responsabilidad social en la industria."
+    },
+    "vision": {
+        "title": "Visión",
+        "content": "Nuestra visión es consolidarnos como la empresa líder en trazabilidad minera en América Latina, conectando a toda la cadena de valor: desde la mina hasta el consumidor; con información confiable, inmutable y verificable."
+    },
+    "benefits": {
+        "title": "Ventajas",
+        "benefit1": "Gestiona tu flota con facilidad: GoldCheck ofrece una interfaz intuitiva que te permite supervisar y gestionar los minerales sin esfuerzo, ahorrándote tiempo y recursos.",
+        "benefit2": "Mayor seguridad: GoldCheck ofrece funciones de seguridad avanzadas para proteger los vehículos de transporte contra usos no autorizados.",
+        "benefit3": "Información en tiempo real: Accede al instante a datos esenciales sobre la ruta de los minerales, lo que te permite tomar decisiones fundamentadas y llevar a cabo una gestión proactiva.",
         "content": "Nuestra misión es transformar la seguridad de los vehículos mediante un sistema de monitorización inteligente y telemetría avanzada, lo que permite a nuestros segmentos objetivo recuperar el control absoluto de sus unidades en tiempo real. Nos comprometemos a proteger los activos de nuestros usuarios y a mejorar la rentabilidad de los mismos, eliminando la incertidumbre mediante respuestas inmediatas y análisis personalizados que convierten cada vehículo en una unidad protegida y eficiente."
     },
     "vision": {
@@ -36,6 +50,10 @@
     },
     "telemetrySection":{
         "title": "Donde se unen la telemetría y la seguridad",
+        "content": "GoldCheck ofrece una plataforma de telemetría avanzada que permite supervisar en tiempo real la ubicación, la velocidad, el estado del vehículo y otros datos fundamentales. Nuestra tecnología de vanguardia permite a los usuarios acceder a información detallada sobre los productos que utilizan minerales y su origen, lo que les proporciona una visión general completa para tomar decisiones eficientes y éticas.",
+        "bullet1": "Integración con la red de área de controladores (CAN): GoldCheck se integra a la perfección con el bus CAN del vehículo de transporte, lo que permite una recopilación exhaustiva de datos y la supervisión de diversos parámetros, como el rendimiento del motor, los niveles de combustible y mucho más.",
+        "bullet2": "Cartografía con Sistemas de Información Geográfica (SIG): Nuestra plataforma utiliza tecnología de cartografía SIG para ofrecer funciones de seguimiento de la ubicación en tiempo real y de geovallas, lo que garantiza que siempre sepa dónde se encuentran los vehiculos de transporte para monitorear el ciclo de transporte.",
+        "bullet3": "Alertas y notificaciones personalizadas: GoldCheck te permite configurar alertas y notificaciones personalizadas basadas en eventos o condiciones específicas, como movimientos no autorizados, exceso de velocidad o recordatorios de mantenimiento, lo que mantiene a los operadores de mina informados y en control en todo momento. Otorga permisos y realiza un seguimiento de los patrones de ruta."
         "content": "GOLDCHECK ofrece una plataforma de telemetría avanzada que proporciona monitoreo en tiempo real de la ubicación, velocidad, estado del vehículo y otros datos críticos. Nuestra tecnología de vanguardia permite a los usuarios acceder a información detallada sobre sus vehículos desde cualquier lugar, brindando una visión completa para una gestión eficiente y segura.",
         "bullet1": "Integración con la red de área de controladores (CAN): GOLDCHECK se integra a la perfección con el bus CAN de su vehículo, lo que permite una recopilación exhaustiva de datos y la supervisión de diversos parámetros, como el rendimiento del motor, los niveles de combustible y mucho más.",
         "bullet2": "Cartografía con Sistemas de Información Geográfica (SIG): Nuestra plataforma utiliza tecnología de cartografía SIG para ofrecer funciones de seguimiento de la ubicación en tiempo real y de geovallas, lo que garantiza que siempre sepa dónde se encuentran sus vehículos y le permite establecer límites virtuales para mayor seguridad.",
@@ -44,6 +62,12 @@
     "howdoesitworkSection":{
         "title": "¿Cómo funciona?",
         "segment1": {
+            "title": "Consumidores",
+            "description": "Escanea el código QR de los productos que compres para poder ver su certificación y todo el ciclo de transporte por el que ha pasado."
+        },
+        "segment2": {
+            "title": "Empresas y Joyerías",
+            "description": "Gestiona la ubicación de tu flota, certifica los datos de los minerales e integra nuestro sistema en tu infraestructura actual para mejorar la seguridad de los datos y la gestión."
             "title": "Personas comunes",
             "description": "Integra fácilmente GOLDCHECK en tu vehículo en cuestión de minutos y observa cómo los datos de tu vehículo cobran vida en nuestro panel de control, que es muy fácil de usar, lo que te ofrece un control total y tranquilidad."
         },
@@ -58,6 +82,12 @@
     "faq": {
     "title": "Preguntas frecuentes",
     "q1": {
+        "question": "¿Qué es GoldCheck y cómo funciona?",
+        "answer": "GoldCheck es una plataforma inteligente de monitorización de minerales que utiliza sensores IoT y telemetría para ofrecer seguimiento en tiempo real, alertas de seguridad y gestión de flotas desde cualquier dispositivo."
+    },
+    "q2": {
+        "question": "¿Es GoldCheck compatible con cualquier tipo de mineral?",
+        "answer": "Sí, GoldCheck es compatible con la mayoría de los minerales, enfocado principalmente en el oro."
         "question": "¿Qué es GOLDCHECK y cómo funciona?",
         "answer": "GOLDCHECK es una plataforma inteligente de monitorización de vehículos que utiliza sensores IoT y telemetría para ofrecer seguimiento en tiempo real, alertas de seguridad y gestión de flotas desde cualquier dispositivo."
     },
@@ -70,12 +100,20 @@
         "answer": "Utilizamos cifrado de extremo a extremo y cumplimos con la normativa internacional en materia de protección de datos. Tus datos se almacenan en servidores seguros certificados y nunca se comparten con terceros sin tu consentimiento."
     },
     "q4": {
+        "question": "¿Puedo gestionar varios productos a la vez?",
+        "answer": "Por supuesto. Nuestro plan empresarial te permite gestionar un número ilimitado de productos desde un único panel de control."
+    },
+    "q5": {
+        "question": "¿Qué ocurre si el vehículo de transporte se adentra en una zona sin cobertura?",
+        "answer": "El dispositivo almacena los datos localmente y se sincroniza automáticamente en cuanto se restablece la conexión, lo que garantiza que no haya lagunas en el historial de seguimiento del transporte."
+
         "question": "¿Puedo gestionar varios vehículos a la vez?",
         "answer": "Por supuesto. Nuestro plan empresarial te permite gestionar un número ilimitado de vehículos desde un único panel de control, con un control de acceso basado en roles para los miembros de tu equipo."
     },
     "q5": {
         "question": "¿Qué ocurre si mi vehículo se adentra en una zona sin cobertura?",
         "answer": "El dispositivo almacena los datos localmente y se sincroniza automáticamente en cuanto se restablece la conexión, lo que garantiza que no haya lagunas en el historial de seguimiento de tu vehículo."
+
     }
     
     },
